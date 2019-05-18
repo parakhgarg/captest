@@ -1,7 +1,7 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.11.0"
 
-set :application, "cap_test"
+set :application, "captest"
 set :repo_url, "git@github.com:parakhgarg/captest.git"
 set :user,            'deploy'
 set :puma_threads,    [4, 16]
