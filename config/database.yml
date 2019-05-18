@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: captest_production
-  username: captest
+  username: captest1
   password: <%= ENV['CAPTEST_DATABASE_PASSWORD'] %>
