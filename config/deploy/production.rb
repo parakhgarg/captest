@@ -3,7 +3,7 @@
 # Defines a single server with a list of roles and multiple properties.
 # You can define all roles on a single server, or split them:
 
-server "deploy@ec2-54-165-26-197.compute-1.amazonaws.com", user: "deploy", port: 22, roles: %w{app db web}, primary: :true
+server "ec2-54-165-26-197.compute-1.amazonaws.com", user: "deploy", port: 22, roles: %w{app db web}, primary: :true
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
 # server "db.example.com", user: "deploy", roles: %w{db}
 set :stage,           :production
