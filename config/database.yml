@@ -80,6 +80,7 @@ test:
 #
 production:
   <<: *default
+  host: localhost
   database: captest_production
   username: captest1
   password: <%= ENV['CAPTEST_DATABASE_PASSWORD'] %>
